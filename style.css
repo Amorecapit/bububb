@@ -26,7 +26,7 @@ h1 {
 }
 
 .hero img {
-  max-width: 80%;
+  max-width: 90%;
   height: auto;
   border-radius: 10px;
   transition: transform 0.3s;
