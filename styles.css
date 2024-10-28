@@ -227,7 +227,7 @@ input[type="range"]::-webkit-slider-thumb{
 @media(max-width: 700px){
 	.main{
 		min-height: 80vh;
-		width: 80%;
+		width: 60%;
 		flex-direction: column;
 	}
 	.right{
