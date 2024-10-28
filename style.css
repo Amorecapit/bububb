@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: plum;
+  color: #333;
+  animation: fadeIn 2s ease-in;
+}
+
+header {
+  background-color: palevioletred;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #ffffff;
+  animation: slideIn 3s infinite;
+}
+
+.hero {
+  text-align: center;
+  padding: 20px;
+  animation: slideIn 1s ease-out;
+}
+
+.hero img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.hero img:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  color: #ff1493;
+  animation: shake 1s infinite;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #ff1493;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: palevioletred;
+}
+
+.music-player {
+  width: 10px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.audio-container {
+  text-align: center; /* Untuk men-center-kan kontrol audio */
+  margin-top: 20px; /* Optional: untuk memberi jarak di atas kontrol audio */  
+}
+
+.audio-container audio {
+  width: 100%; /* Membuat kontrol audio memenuhi lebar kontainer */
+  outline: none; /* Menghapus outline default */
+}
+
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: palevioletred;
+  color: rgb(0, 0, 0);
+  position: relative;
+  bottom: 0;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes titleAnimation {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(10px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+
+}
