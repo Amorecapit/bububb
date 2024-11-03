@@ -3,7 +3,7 @@
 	padding: 0;
 	font-family: 'merriweather';
  font-size: small;
- font-weigth: 300;
+ font-weigth: 2em;
  font-style: italic;
 }
 body{
@@ -196,7 +196,7 @@ input[type="range"]::-webkit-slider-thumb{
 	background: palevioletred;
 }
 .right button:hover{
-	background: rgb(211, 109, 211);
+	background: plum;
 }
 .right i:before{
 	color: black;
