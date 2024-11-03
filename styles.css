@@ -228,7 +228,7 @@ input[type="range"]::-webkit-slider-thumb{
 /*responsive*/
 @media(max-width: 700px){
 	.main{
-		min-height: 90vh;
+		min-height: 100vh;
 		width: 50%;
 		flex-direction: column;
 	}
@@ -245,7 +245,7 @@ input[type="range"]::-webkit-slider-thumb{
 	}
 	.left img{
         min-width: 90%;
-        height: 150px;
+        height: 180px;
 	}
 	.main #logo{
 		display: none;
