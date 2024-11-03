@@ -1,7 +1,9 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: cursive;
+	font-family: 'merriweather';
+ font-weight: 300;
+ font-style: normal;
 }
 body{
 	min-height: 100vh;
